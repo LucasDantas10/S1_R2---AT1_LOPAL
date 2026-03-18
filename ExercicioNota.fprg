@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ExercicioNota"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:53:43 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NTsyMDI2LTAzLTE4OyIwMjo0ODo1MSAiOzI0MzU="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NTsyMDI2LTAzLTE4OyIwMjo1Mzo0MyAiOzE7MjU0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="nota1 + nota2"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="soma / 2"/>
+            <output expression="&quot;A sua m&#233;dia final e de: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
